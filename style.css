@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: #efeee7;
+    color: #1c1d1a;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #2e6b57;
+}
+
+p {
+    color: #58594f;
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 15px;
+    border: 2px solid var(--accent-warm);
+}
+
+.project-image {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.project2-photo {
+    width: 500px;
+    height: auto;
+}
